@@ -76,12 +76,6 @@ Id_colaborador_1: Chave estrangeira para tbl_colaboradores
 
 id_produto_1: Chave estrangeira para tbl_produtos
 
-⚠️ Observações
-Os tamanhos de alguns campos como VARCHAR(10) estão limitados para fins de exemplo e devem ser ajustados conforme o contexto real.
-
-O campo VARCHAR() sem tamanho na tabela tel_cliente_1 deve ser corrigido para VARCHAR(10) ou o valor adequado.
-
-As tabelas intermediárias (pro_vend, clien_vend, prod_colab) não possuem chaves primárias definidas; recomenda-se o uso de chaves compostas ou criação de um campo ID para cada relação.
 
 🛠️ Ferramenta Utilizada
 brModelo – Ferramenta de modelagem para criação do modelo físico e geração do script SQL.
